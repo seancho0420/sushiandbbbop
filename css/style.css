@@ -30,6 +30,7 @@ body {
     background: url(../../images/bg-page.png) no-repeat left top;
     width: 960px;
     margin: 0 auto;
+    display: none;
 }
 img {
     border: 0;
@@ -193,10 +194,6 @@ img {
     font-style: normal;
 }
 /*------------------------------ CONTENTS ------------------------------*/
-#content-effect {
-    display: none;
-}
-
 #contents div.header {
     background: url(../../images/bg-content-top.png) no-repeat left top;
     width: 733px;
@@ -636,4 +633,12 @@ img {
 
 .notification {
 	color: #EE1C23;
+}
+
+.menu-info-sushi {
+    background: url(../images/menu_header_jp.gif) no-repeat right top;
+}
+
+.menu-info-bbbop {
+    background: url(../images/menu_header_kr.gif) no-repeat right top;
 }

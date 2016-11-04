@@ -1,12 +1,8 @@
 $(document).ready(function() {
-    
- 
-    // $("#content-effect").fadeIn(1500);
- 
     $("a.transition").click(function(event){
         event.preventDefault();
         linkLocation = this.href;
-        $("#content-effect").fadeOut(1000, redirectPage);
+        $("body").fadeOut(1000, redirectPage);
     });
     
     function redirectPage() {
@@ -15,5 +11,5 @@ $(document).ready(function() {
 });
 
 $(window).load(function() {
-    $("#content-effect").fadeIn(1500);
+    $("#page").fadeIn(1500);
 });
